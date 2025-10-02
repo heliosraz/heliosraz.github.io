@@ -1,0 +1,32 @@
+:root {
+    --background-color-light: #ffffff;
+    --text-color-light: #000000;
+    --background-color-dark: #121212;
+    --text-color-dark: #ffffff;
+  }
+img {
+    width: 40px;
+    height: auto;
+    background-color: rgb(251, 251, 251);
+}
+#socials{
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: var(--background-color-light)k;
+}
+body{
+  background-color: var(--background-color-light)k;
+    color: var(--text-color-light);
+    font-family: Courier, monospace;
+}
+.dark-mode {
+    background-color: var(--background-color-dark);
+    color: var(--text-color-dark);
+  }
+
+.light-mode {
+  background-color: var(--background-color-light);
+  color: var(--text-color-light);
+}   

@@ -2,10 +2,9 @@ let light = document.body.classList.toggle('light-mode');
 let dark = false;
 document.addEventListener('DOMContentLoaded', (event) => {
     if (localStorage.getItem('darkMode') === 'enabled') {
-      toggleDark();
+        toggleDark();
     }
-  });
-
+});
 
 function toggleLight(){
     if(dark){

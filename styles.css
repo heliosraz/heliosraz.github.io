@@ -17,7 +17,7 @@ img {
   background-color: var(--background-color-light)k;
 }
 body{
-  background-color: var(--background-color-light)k;
+    background-color: var(--background-color-light)k;
     color: var(--text-color-light);
     font-family: Courier, monospace;
 }
@@ -29,4 +29,8 @@ body{
 .light-mode {
   background-color: var(--background-color-light);
   color: var(--text-color-light);
-}   
+} 
+
+#page-wrapper {
+  padding: 5px
+}

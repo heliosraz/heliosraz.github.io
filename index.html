@@ -12,128 +12,22 @@
         <button id="button-light" onclick="toggleLight()">Light Mode</button>
         <button id="button-dark" onclick="toggleDark()">Dark Mode</button>
     </div>
+        <a href="/index.html">Bio</a>
+        <a href="/projects.html">Projects</a>
+        <a href="/experience.html">Experience</a>
+    </div>
     <div id="page-wrapper">
         <div>
             <img src="./assets/images/profile-pic.jpg" style="width:20%;height:auto;"/>
             <h1>Sunny Zhou</h1>
         </div>
-        Hi! I am a recent Computational Linguistics Masters graduate from Michtom School of Computer Science at Brandeis University. 
+        <div id="bio">
+        Hi! I am a recent Computational Linguistics Masters graduate from Michtom School of Computer Science at Brandeis University. Previously, I recieved a Linguistics and Mathematical and Scientific Computation double major from the University of California, Davis.
         I am seeking opportunities in improving language model interpretability and reliability, focusing mainly on the application of Computational Semantics in deep learning architecture. 
         <h2>What I'm up to</h2>
         I will be attending <a href="https://events.linuxfoundation.org/pytorch-conference/">PyTorch Conference 2026</a> in SF and hoping to connect with hiring professionals.
-        <div id="projects">
-            <h2>Projects</h2>
-            <dl>
-                <div class="project">
-                    <dt>
-                        <h3><a href="https://github.com/heliosraz/master_thesis">Ambiguity and Bias: A Departure from Classical Evaluation (2025) -- Master's Thesis</a></h3>
-                    </dt>
-                    <dd>
-                        <ul>
-                            <li> Investigated the understanding of polysemy in LLMs through a variety of tasks, probing the understanding of Llama-3.3, DeepSeek-R1, Gemma-3, and Mistral-3.1.</li>
-                            <li>Constructed a dataset of iterative prompts, utilizing definitions and examples from WordNet synsets, to evaluate LLM awareness of appropriate word sense usage.</li>
-                            <li>Analyzed underlying lexical semantics understanding of LLMs, through the clustering of contextual word em- beddings, finding whether LLMs carry similar developmental biases as humans when learning new word senses.</li>
-                            <li>View my work on <a href="https://www.proquest.com/openview/284d193d3931e7520157dc7d8bf71f09/1?pq-origsite=gscholar&cbl=18750&diss=y">ProQuest</a> and reach out to me with any questions.</li>
-                        </ul>
-                    </dd>
-                </div>
-
-                <div class="project">
-                    <dt>
-                        <h3><a href="https://github.com/heliosraz/git-rag">GitHub RAG Assistant (2025)</a></h3>
-                    </dt>
-                    <dd>
-                        <ul>
-                            <li>Developed a Llama chat assistant to answer questions regarding projects on my GitHub, chunking relevant project documentation such as README files and source code to improve retrieval.</li>
-                            <li>Implemented a RAG system using IndexHNSWFlat to index and retrieve relevant files and deployed a simple chat interface for user interaction.</li>
-                        </ul>
-                    </dd>
-                </div>
-
-                <div class="project">
-                    <dt>
-                        <h3><a href="https://github.com/heliosraz/math-tutor">Agential Grade School Math Tutor (2025)</a></h3>
-                    </dt>
-                    <dd>
-                        <ul>
-                            <li>Collaborated on an LLM-based math tutor implemented with Llama-3.3 and the Together API, using a custom LangChain toolkit to break math problems into stepwise solutions.</li>
-                            <li>Built a lightweight Flask web interface to present MathJax-formatted problems and solutions and iteratively improved prompts to reduce premature solution disclosure.</li>
-                        </ul>
-                    </dd>
-                </div>
-
-                <div class="project">
-                    <dt>
-                        <h3><a href="https://github.com/heliosraz/speech-act-annotation">Speech Act Annotation Guidelines for NPR Podcasts (2024)</a></h3>
-                    </dt>
-                    <dd>
-                        <ul>
-                            <li>Devised a speech act annotation scheme capturing dialogue pragmatics via classification of dialogue acts and clause types.</li>
-                            <li>Compiled annotated data from NPR podcast transcripts and analyzed annotator agreement using Fleiss' Kappa.</li>
-                        </ul>
-                    </dd>
-                </div>
-                
-                <div class="project">
-                    <dt>
-                        <h3><a href="https://github.com/heliosraz/news_keyword_prediction">Logistic Regression and Naive Bayes Fine Tuning for Multi-label Article Keyword Classification (2023)</a></h3>
-                    </dt>
-                    <dd>
-                        <ul>
-                            <li> Constructed a fine-tuning paradigm for logistic regression and naive Bayes models implemented through
-                            scikit-learn, optimizing for overall accuracy.</li>
-                            <li>Improved the accuracy calculation method, resulting in an accuracy of 98%.</li> 
-                            <li> Utilized gold training data from Kaggle, vectorizing article descriptions using uni-, bi-, and trigram counts.</li>
-                        </ul>
-                    </dd>
-                </div>
-
-                <div class="project">
-                    <dt>
-                        <h3><a href="https://github.com/heliosraz/NewsHeadlinePolitics">Headline Political Spectrum Classifier (2023)</a></h3>
-                    </dt>  
-                    <dd>
-                        <ul>
-                            <li> Developed a Naive Bayes model from scratch to classify the political spectrum of news article headlines,
-                            using scraped data from five major news outlets using BeautifulSoup and the sitemap.xml of each outlet.</li>
-                            <li> Implemented a term frequency-inverse document frequency matrix as a feature input to minimize the influence of low-impact tokens that were tokenized using spaces.</li>
-                        </ul>
-                    </dd>
-                </div>
-            </dl>
         </div>
 
-        <div id="experience">
-            <h2>Experience</h2>
-            <dl>
-                <dt>
-                    <h3>Teaching Assistant</h3>
-                    <h4>Brandeis University</h4>
-                    <h5>Courses: Numerical Methods and Big Data, Semantics, Linear Algebra; Waltham, MA August 2023 - May 2024</h5>
-                </dt>
-                <dd>
-                    <ul>
-                        <li> Condensed course materials and resources to provide constructive feedback on student work, covering a range
-                        of topics, such as numerical analysis, algorithms, and optimization.</li>
-                        <li> Composed grading rubrics and in-depth solution sets for homework with professor and fellow graduate student.</li>
-                    </ul>
-                </dd>
-                
-                <dt>
-                    <h3>Undergraduate Research Assistant </h3>
-                    <h4>University of California, Davis</h4>
-                    <h4>Language, Logic, and Learning Lab (L3Lab); Davis, CA March 2021 - Jun 2023</h4>
-                </dt>
-                <dd>
-                    <ul>
-                        <li> Designed experimental procedures for research projects on how children judge lies made with implications and
-                        the reliability of pragmatics metrics. </li>
-                        <li> Developed data analysis scripts in R and Python for text-processing and data analysis in language development.</li>
-                        <li> Presented research at the UC Davis Language Symposium (Topic: How Children Judge Lies Made with Implicatures).</li>
-                    </ul>
-                </dd>
-            </dl>
-        </div>
 
         <div id="socials">
             <a class="social" href="https://www.linkedin.com/in/sunny-zhou-533026199/"><img src="./assets/images/LI-In-Bug.png" /></a>

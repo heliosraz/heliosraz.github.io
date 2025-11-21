@@ -1,6 +1,6 @@
 let light = document.body.classList.toggle('light-mode');
 let dark = false;
-fetch("/_includes/menu.html")
+fetch("includes/menu.html")
     .then(response=>response.text())
     .then(data => {
         document.getElementById('menu-container').innerHTML = data;

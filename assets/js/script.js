@@ -28,3 +28,12 @@ function toggleDark(){
     localStorage.setItem('darkMode', dark ? 'enabled' : 'disabled');
 }
 
+async function readFiles(dir){
+    var files = fs.promises.readdir(dir)
+    var document.getElementById("")
+
+    for (const file in files){
+        var  = document.createElement("href")
+
+    }
+}

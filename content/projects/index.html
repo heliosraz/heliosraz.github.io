@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device width, initial-scale=1.0">
+        <meta http-equiv="A UA-Compatible" content="ie=edge">
+        <title> Sunny Zhou</title>
+        <base href="https://heliosraz.github.io/">
+        <link rel="stylesheet" href="assets/css/styles.css">
+    </head>
+    <body>
+        <div id="menu-container"></div> 
+        <div id="page-wrapper"> 
+            <div id="projects">
+                <h2>Projects</h2>
+                <dl>
+                    <div class="project">
+                        <dt>
+                            <h3><a href="https://github.com/heliosraz/master_thesis">Ambiguity and Bias: A Departure from Classical Evaluation (2025) -- Master's Thesis</a></h3>
+                        </dt>
+                        <dd>
+                            <ul>
+                                <li> Investigated the understanding of polysemy in LLMs through a variety of tasks, probing the understanding of Llama-3.3, DeepSeek-R1, Gemma-3, and Mistral-3.1.</li>
+                                <li>Constructed a dataset of iterative prompts, utilizing definitions and examples from WordNet synsets, to evaluate LLM awareness of appropriate word sense usage.</li>
+                                <li>Analyzed underlying lexical semantics understanding of LLMs, through the clustering of contextual word em- beddings, finding whether LLMs carry similar developmental biases as humans when learning new word senses.</li>
+                                <li>View my work on <a href="https://www.proquest.com/openview/284d193d3931e7520157dc7d8bf71f09/1?pq-origsite=gscholar&cbl=18750&diss=y">ProQuest</a> and reach out to me with any questions.</li>
+                            </ul>
+                        </dd>
+                    </div>           
+                    <div class="project">
+                        <dt>
+                            <h3><a href="https://github.com/heliosraz/git-rag">GitHub RAG Assistant (2025)</a></h3>
+                        </dt>
+                        <dd>
+                            <ul>
+                                <li>Developed a Llama chat assistant to answer questions regarding projects on my GitHub, chunking relevant project documentation such as README files and source code to improve retrieval.</li>
+                                <li>Implemented a RAG system using IndexHNSWFlat to index and retrieve relevant files and deployed a simple chat interface for user interaction.</li>
+                            </ul>
+                        </dd>
+                    </div>
+
+                    <div class="project">
+                        <dt>
+                            <h3><a href="https://github.com/heliosraz/math-tutor">Agential Grade School Math Tutor (2025)</a></h3>
+                        </dt>
+                        <dd>
+                            <ul>
+                                <li>Collaborated on an LLM-based math tutor implemented with Llama-3.3 and the Together API, using a custom LangChain toolkit to break math problems into stepwise solutions.</li>
+                                <li>Built a lightweight Flask web interface to present MathJax-formatted problems and solutions and iteratively improved prompts to reduce premature solution disclosure.</li>
+                            </ul>
+                        </dd>
+                    </div>
+
+                    <div class="project">
+                        <dt>
+                            <h3><a href="https://github.com/heliosraz/speech-act-annotation">Speech Act Annotation Guidelines for NPR Podcasts (2024)</a></h3>
+                        </dt>
+                        <dd>
+                            <ul>
+                                <li>Devised a speech act annotation scheme capturing dialogue pragmatics via classification of dialogue acts and clause types.</li>
+                                <li>Compiled annotated data from NPR podcast transcripts and analyzed annotator agreement using Fleiss' Kappa.</li>
+                            </ul>
+                        </dd>
+                    </div>
+                    
+                    <div class="project">
+                        <dt>
+                            <h3><a href="https://github.com/heliosraz/news_keyword_prediction">Logistic Regression and Naive Bayes Fine Tuning for Multi-label Article Keyword Classification (2023)</a></h3>
+                        </dt>
+                        <dd>
+                            <ul>
+                                <li> Constructed a fine-tuning paradigm for logistic regression and naive Bayes models implemented through
+                                scikit-learn, optimizing for overall accuracy.</li>
+                                <li>Improved the accuracy calculation method, resulting in an accuracy of 98%.</li> 
+                                <li> Utilized gold training data from Kaggle, vectorizing article descriptions using uni-, bi-, and trigram counts.</li>
+                            </ul>
+                        </dd>
+                    </div>
+
+                    <div class="project">
+                        <dt>
+                            <h3><a href="https://github.com/heliosraz/NewsHeadlinePolitics">Headline Political Spectrum Classifier (2023)</a></h3>
+                        </dt> 
+                        <dd>
+                            <ul>
+                                <li> Developed a Naive Bayes model from scratch to classify the political spectrum of news article headlines,
+                                using scraped data from five major news outlets using BeautifulSoup and the sitemap.xml of each outlet.</li>
+                                <li> Implemented a term frequency-inverse document frequency matrix as a feature input to minimize the influence of low-impact tokens that were tokenized using spaces.</li>
+                            </ul>
+                        </dd>
+                    </div>
+                </dl>
+            </div>
+        </div>
+        <div id="socials">
+            <a class="social" href="https://www.linkedin.com/in/sunny-zhou-533026199/"><img src="assets/images/LI-In-Bug.png" /></a>
+            <a class="social" href="https://github.com/heliosraz/"><img src="assets/images/github-mark.png" /></a>
+        </div>
+
+    </body>
+    <script src="assets/js/script.js"></script>
+</html>

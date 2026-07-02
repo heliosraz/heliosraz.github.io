@@ -2,9 +2,6 @@ cv:
   name: Sunny Zhou
   label: AI Engineer
   email: sunny.t.zhou@gmail.com
-  location: Berkeley, CA
-  image: ""
-  summary: 
 
   social_networks:
     - network: GitHub
@@ -12,12 +9,6 @@ cv:
     - network: LinkedIn
       username: sunny-zhou-533026199
 
-  address:
-    street: 
-    city: 
-    region: 
-    postalCode: 
-    countryCode: 
 
   sections:
     Education:
@@ -52,37 +43,18 @@ cv:
 
       - company: Twin Rivers Unified School Distric
         position: Substitute Teacher
-        location: 
+        location: McClellan Park, CA
         start_date: 2026
         end_date: current
         summary: 
 
       - company: Brandeis University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
+        position: Teaching Assistant
+        location: Waltham, MA
         start_date: 2023
         end_date: 2024
         summary: 
 
-
-    Volunteer:
-      - company: 
-        position: 
-        location: 
-        start_date: 
-        end_date: 
-        summary: 
-        highlights:
-
-    Publications:
-      - title: 
-        authors:
-        publisher: 
-        releaseDate: 
-        url: 
-        summary:
-
-    Skills:
 
     Languages:
       - name: Mandarin Chinese
@@ -91,16 +63,9 @@ cv:
       - name: English
         summary: "Native speaker"
 
-    Interests:
-    Certificates:
-
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
-
-    References:
+    Interests: 
+    - name: computational semantics
+    - name: interpretability
+    - name: benchmarks
+    - name: ambiguity
+    - name: reasoning 

@@ -124,6 +124,7 @@ pagination:
 
 {% if post.thumbnail %}
 
+
 <div class="row">
           <div class="col-sm-9">
 {% endif %}
@@ -182,6 +183,7 @@ pagination:
     <img class="card-img" src="{{ post.thumbnail | relative_url }}" style="object-fit: cover; height: 90%" alt="image">
   </div>
 </div>
+
 {% endif %}
     </li>
 
@@ -191,6 +193,8 @@ pagination:
 
 {% if page.pagination.enabled %}
 {% include pagination.liquid %}
+
+
 {% endif %}
 
 </div>

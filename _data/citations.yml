@@ -1,6 +1,10 @@
 metadata:
-  last_updated: '2026-07-03'
+  last_updated: '2026-07-13'
 papers:
+  1oEhbwwAAAAJ:u-x6o8ySG0sC:
+    citations: 1
+    title: 'ZYC at SemEval-2026 Task 5: Application of BERT-based Contextual Embeddings Similarity for WSD'
+    year: '2026'
   1oEhbwwAAAAJ:u5HHmVD_uO8C:
     citations: 0
     title: 'Ambiguity and Bias: A Departure From Classical LLM Evaluation'
